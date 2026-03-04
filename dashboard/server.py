@@ -1,7 +1,8 @@
 from fastapi import FastAPI
 
-app=FastAPI()
+app = FastAPI()
 
-@app.get("/status")
-def status():
-    return {"agents":"running"}
+@app.get("/metrics")
+def metrics():
+
+    return {"status":"running"}
