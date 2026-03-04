@@ -1,0 +1,21 @@
+models:
+
+  planner:
+    provider: deepseek
+    model: deepseek-chat
+
+  reasoning:
+    provider: qwen
+    model: qwen2-72b
+
+  coding:
+    provider: openai
+    model: gpt-4o
+
+  cheap:
+    provider: qwen
+    model: qwen2-7b
+
+  embedding:
+    provider: openai
+    model: text-embedding-3-small

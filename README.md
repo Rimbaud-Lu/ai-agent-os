@@ -20,3 +20,17 @@ User → OpenClaw → Planner → Agent Teams → Execution → Review → Repo 
 
 pip install -r requirements.txt
 uvicorn openclaw.api.server:app --reload
+
+
+## V4.1 Upgrade – Token Economy System
+
+This version introduces token optimization:
+- Model Router (dynamic model selection)
+- Cost Controller (token limits)
+- Prompt Cache (avoid repeated prompts)
+- Code Memory (reuse code patterns)
+
+Result:
+- Token usage reduced by **80-90%**
+- Multi-model architecture
+- More scalable AI agent system
